@@ -1,0 +1,178 @@
+/*
+*	mainStyle.css
+*	Author:		Gian Biondi
+*	Site:		http://www.hamiltonnjpl.org/
+*	Version:	1.0
+*/
+
+body {
+	font-family: 	"HelveticaNeue-Light", "Helvetica Neue Light", 
+					"Helvetica Neue", Helvetica, Arial, "Lucida Grande", 
+					sans-serif; 
+	font-weight: 300;
+}
+
+.body {
+	width: 1000px;
+	margin: 0px auto;
+	background-color:#008080;
+}
+
+header {
+	
+}
+
+header a img {
+	margin-top: 5px;
+}
+
+/*
+************************************************************
+*	Main top Nav bar
+************************************************************
+*/
+#top {
+	padding: 0px 0px 0px 0px;
+}
+
+#top ul {
+	list-style:none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#top li {
+	float: left;
+	//display: inline-block;
+	//margin-left:0px;
+	//margin-right: 2px;
+	//margin:0 auto;
+	//border: 2px black solid;
+	outline-right:2px white solid;
+	width: 125px;
+	height:50px;
+	text-align: center;
+	//background-image:url("../img/topNavButton.png");
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#top a:link, #top a:visited {
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	margin:0 auto;
+	
+}
+
+#top li ul {
+	display:none;
+	width: 10em;
+}
+
+#top li ul li {
+	width: 5em;
+}
+
+/*
+************************************************************
+*	Content Section
+************************************************************
+*/
+
+#body {
+
+}
+
+#content {
+
+}
+
+.content {
+	float: left;
+}
+#left {
+	float:left;
+	width:330px
+}
+#right {
+	float:left;
+	width:650px;
+	margin-top: 16px;
+	margin-left: 20px;
+}
+
+#info{
+
+}
+#libraryInfo {
+	padding:0px;
+	
+}
+
+#libraryInfo ul {
+	list-style:none;
+	
+}
+
+#libraryInfo li {
+	display:block;
+	background-color:red;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	text-align:center;
+	width: 200px;
+	min-height: 30px;
+}
+
+#libraryInfo a:link {
+	font-size: 20px;
+	text-decoration: none;
+	color:black;
+	margin: 0 auto;
+	
+}
+
+#info_container {
+	display:none;
+}
+
+#howDoI_container {
+	display:none;
+}
+
+#slideshow-container {
+
+}
+
+.bottom_content {
+	position:relative;
+	float:left;
+	min-height: 200px;
+	border: 2px black solid;
+	width:320px;
+	margin-top:5px;
+	text-align:center;
+}
+
+#news {
+
+	margin-right: 2px;
+}
+
+#events {
+
+}
+
+/*
+************************************************************
+*	Footer Section
+************************************************************
+*/
+footer {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+}
