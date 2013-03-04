@@ -10,16 +10,25 @@ body {
 					"Helvetica Neue", Helvetica, Arial, "Lucida Grande", 
 					sans-serif; 
 	font-weight: 300;
+	//background-color:#23396b;
+	background-color:#56c0c0;
 }
 
 .body {
 	width: 1000px;
 	margin: 0px auto;
-	background-color:#008080;
+	//background-color:#008080;
+	background-color:#ffffff;
+	//outline:1px solid #005353;//#051f5d ;
 }
 
-header {
-	
+#page_container {
+	box-shadow:0px 0px 15px 10px #008080;
+
+}
+
+header#banner {
+	background-color:#008080;
 }
 
 header a img {
@@ -33,6 +42,12 @@ header a img {
 */
 #top {
 	padding: 0px 0px 0px 0px;
+	margin-bottom:0px;
+	height:50px;
+	
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	
 }
 
 #top ul {
@@ -42,20 +57,13 @@ header a img {
 }
 
 #top li {
+	padding-top:5px;
 	float: left;
-	//display: inline-block;
-	//margin-left:0px;
-	//margin-right: 2px;
-	//margin:0 auto;
-	//border: 2px black solid;
-	outline-right:2px white solid;
 	width: 125px;
 	height:50px;
 	text-align: center;
-	//background-image:url("../img/topNavButton.png");
-	background-size:100%;
-	background-repeat:no-repeat;
-	background-position:center;
+	//border-top:1px solid black;
+	//border-bottom:1px solid black;
 }
 
 #top a:link, #top a:visited {
@@ -83,25 +91,32 @@ header a img {
 */
 
 #body {
-
+	margin-top:0px;
+	min-height:670px;
 }
 
 #content {
-
+	
 }
 
 .content {
 	float: left;
 }
+
+.page {
+	min-height:650px;
+}
 #left {
+	padding-left: 5px;
 	float:left;
-	width:330px
+	width:325px;
+	border-right:1px solid black;
 }
 #right {
 	float:left;
 	width:650px;
 	margin-top: 16px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 #info{
@@ -119,12 +134,18 @@ header a img {
 
 #libraryInfo li {
 	display:block;
-	background-color:red;
+	background-color:#00ab00;
 	border-radius: 8px;
 	margin-bottom: 10px;
 	text-align:center;
-	width: 200px;
+	width: 250px;
 	min-height: 30px;
+	box-shadow:0px 3px 10px 0px #56c0c0;
+}
+
+#libraryInfo ul li {
+	box-shadow:0px 0px 0px 0px #56c0c0;
+
 }
 
 #libraryInfo a:link {
@@ -135,6 +156,19 @@ header a img {
 	
 }
 
+#libraryInfo table {
+	margin-left:0px;
+}
+
+#libraryInfo td {
+	padding-left:20px;
+}
+
+#libraryInfo #hours_title {
+	font-weight:bold;
+}
+
+
 #info_container {
 	display:none;
 }
@@ -142,6 +176,18 @@ header a img {
 #howDoI_container {
 	display:none;
 }
+
+#howDoI_child {
+	
+	padding-left:0px;
+	margin-left:0px;
+	
+}
+
+#howDoI_child li {
+	text-align:center;
+}
+
 
 #slideshow-container {
 
